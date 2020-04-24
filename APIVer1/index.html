@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+crossorigin="anonymous"
+/>
+<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Handlee|Press+Start+2P&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Luckiest+Guy|Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="/pics/globe.png" width="50" class="d-inline-block align-top" alt="">
+            Global Weather 
+        </a>
+        <div class="searchbox">
+            <input type="text" class="search" placeholder="Enter a city name..." name="search">
+            <button type="submit" class="button"><i class="fa fa-search"></i></button>
+        </div>
+    </nav>
+    <section>
+        <div class="container-fluid" id="app-wrap">
+            <header>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                  <img src="/pics/globe1.png" alt="weather" height="20%">
+                    <div class="future">Next 24 hours</div>
+                    <table style="margin-left:auto;margin-right:auto;">
+                        <tr>
+                          <th>Date</th>
+                          <th>Status</th>
+                          <th>Temperature</th>
+                        </tr>
+                        <tr>
+                          <td class="date13"></td>
+                          <td class="weather13"></td>
+                          <td class="temp13"></td>
+                        </tr>
+                        <tr>
+                            <td class="date15"></td>
+                            <td class="weather15"></td>
+                            <td class="temp15"></td>
+                          </tr>
+                          <tr>
+                            <td class="date17"></td>
+                            <td class="weather17"></td>
+                            <td class="temp17"></td>
+                          </tr>
+                          <tr>
+                            <td class="date19"></td>
+                            <td class="weather19"></td>
+                            <td class="temp19"></td>
+                          </tr>
+                          <tr>
+                            <td class="date21"></td>
+                            <td class="weather21"></td>
+                            <td class="temp21"></td>
+                          </tr>
+                      </table>
+                </div>
+
+
+                <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                    <div class="city"></div>
+                    <div class="weather"></div>
+                    <img src="/pics/globe.png" alt="weather" class="demo">
+                    <div class="temp"></div>
+                    <div class="feel"></div>
+                    <div class="maxmin"></div>
+                    <div class="wind"></div><br></div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-12 text-center">
+                      <img src="/pics/cloud.png" alt="weather" height="20%">
+                    <div class="future">Next 5 days</div>
+                    <table style="margin-left:auto;margin-right:auto;">
+                        <tr>
+                          <th>Date</th>
+                          <th>Status</th>
+                          <th>Temperature</th>
+                        </tr>
+                        <tr>
+                          <td class="date1"></td>
+                          <td class="weather1"></td>
+                          <td class="temp1"></td>
+                        </tr>
+                        <tr>
+                            <td class="date2"></td>
+                            <td class="weather2"></td>
+                            <td class="temp2"></td>
+                          </tr>
+                          <tr>
+                            <td class="date3"></td>
+                            <td class="weather3"></td>
+                            <td class="temp3"></td>
+                          </tr>
+                          <tr>
+                            <td class="date4"></td>
+                            <td class="weather4"></td>
+                            <td class="temp4"></td>
+                          </tr>
+                          <tr>
+                            <td class="date5"></td>
+                            <td class="weather5"></td>
+                            <td class="temp5"></td>
+                          </tr>
+                      </table>
+                </div></div>
+            </header>
+        </div>
+    </section> 
+</body>
+<script src="script.js"></script>
+</html>

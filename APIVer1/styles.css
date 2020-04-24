@@ -1,0 +1,88 @@
+body { 
+    min-height: 100vh;
+    font-family: 'Acme', sans-serif;
+    background-image: linear-gradient(to bottom right, red, yellow);
+    color: white;
+}
+
+::placeholder{
+    color: darkgrey;
+    opacity: 0.7;
+}
+
+header {
+    padding-top: 3%;
+}
+
+.search {
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+button {
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.city {
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.weather {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.temp {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: 1px 3px rgba(0,0,0,0.6);
+    line-height: 1;
+}
+
+.feel{
+    font-size: 26px;
+    font-weight: 50;
+    padding: 8px;
+}
+
+.maxmin{
+    padding: 8px;
+    font-size: 26px;
+    font-weight: 50;
+}
+
+.wind {
+    padding: 8px;
+    font-size: 26px;
+    font-weight: 50;
+}
+
+.date {
+    font-size: 20px;
+    font-weight: 100;
+    padding-top: 20px;
+}
+
+.future {
+    margin-bottom: 7%;
+    font-size: 100px;
+    font-weight: bold;
+    text-shadow: 1px 3px rgba(0,0,0,0.6);
+    line-height: 1;
+}
+
+td, th {
+    padding: 8px;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
